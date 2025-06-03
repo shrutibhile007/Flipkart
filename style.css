@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f1f3f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  height: 500px;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.left {
+  background: #2874f0;
+  color: white;
+  padding: 40px 30px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h2 {
+  margin: 0 0 20px;
+}
+
+.left p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.left img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.right {
+  width: 60%;
+  padding: 40px 30px;
+  position: relative;
+}
+
+.right input[type="text"],
+.right input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot {
+  font-size: 12px;
+  color: #2874f0;
+  float: right;
+  text-decoration: none;
+}
+
+.terms {
+  font-size: 12px;
+  color: #878787;
+  margin-top: 40px;
+}
+
+.terms a {
+  color: #2874f0;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #fb641b;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.or {
+  text-align: center;
+  margin: 15px 0;
+  color: #878787;
+  font-size: 12px;
+}
+
+.otp-btn {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  color: #2874f0;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.create-account {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.create-account a {
+  color: #2874f0;
+  text-decoration: none;
+}
