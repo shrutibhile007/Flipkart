@@ -13,7 +13,6 @@ A responsive **Flipkart-style login page** built using **HTML**, **CSS**, and **
 ## 🚀 Features
 
 - 🔐 Beautiful login interface inspired by Flipkart
-- 📱 Fully responsive using Bootstrap Grid & Flexbox
 - 🧾 Email/Mobile + Password input fields
 - 🔁 Forgot password and Request OTP links
 - 📘 Terms of Use and Privacy Policy acknowledgment
@@ -26,7 +25,6 @@ A responsive **Flipkart-style login page** built using **HTML**, **CSS**, and **
 
 - ✅ HTML5
 - 🎨 CSS3
-- 🧩 Bootstrap 5
 
 ---
 
